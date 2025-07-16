@@ -4,5 +4,5 @@ export interface PillProps {
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>  {
   title:string;    
-  styles?: string;
+  styles: string;
 }

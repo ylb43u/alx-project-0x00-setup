@@ -3,7 +3,7 @@ import { ButtonProps } from "@/interfaces";
 
 const Button: React.FC<ButtonProps> = ({ 
     title, 
-    styles = "",
+    styles,
     ...rest 
 }) => {
   return (
