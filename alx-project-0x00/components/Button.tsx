@@ -3,15 +3,11 @@ import { ButtonProps } from "@/interfaces";
 
 const Button: React.FC<ButtonProps> = ({ 
     title, 
-    shape = "rounded-md",
-    size = "medium",
+    styles = "",
     ...rest 
 }) => {
-  const sizeClass =
-    size === "Large" ? "text-3xl" : size === "medium" ? "text-xl" : "text-sm";
-
   return (
-    <button className={`${sizeClass} ${shape}`} {...rest}>
+    <button className={`text-white px-4 py-2 ${styles}`} {...rest}>
       {title}
     </button>
   );
