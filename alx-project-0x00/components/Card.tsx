@@ -12,7 +12,7 @@ const Card: React.FC = () => {
       <Image className="rounded-lg" src={HOUSE_IMAGE} width={378.56} height={299.37} alt="house image" />
       <div className="p-2 flex gap-2 mt-2">
         <Pill title="Top Villa" />
-        <Pill title="Self CheckIn" />
+        <Pill title="Sself CheckIn" />
         <Pill title="Free Reschedule" />
       </div>
       <div className="flex items-center justify-between">
