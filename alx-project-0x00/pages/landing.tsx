@@ -29,7 +29,7 @@ const Landing: React.FC =  () => {
         <p className="font-semibold">Large Buttons:</p>
         <div className="space-x-2">
           <Button title="Large + sm" styles="text-xl rounded-sm bg-teal-600" />
-          <Button title="Large + md" styles="text-xl rounded-md bg-indigo-600" />
+          <Button title="Large + md" styles="text-xl rounded-lg bg-indigo-600" />
           <Button title="Large + full" styles="text-xl rounded-full bg-gray-600" />
         </div>
       </div>
